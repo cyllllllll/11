@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./tour.css" />
+    <title>CYL2022</title>
+  </head>
+  <body>
+    <img src="./img/logo1.png" class="follow-img" id="follower">
+    <script src="./tour.js"></script>
+    <!-- navbar -->
+ 
+    <nav class="navbar">
+      <div class="container navbar-flex">
+          <div class="logo-btn">
+            <a href="page2.html" class="image-link"><img src="./img/logo2.png" alt="" class="logo" /></a>
+            <a href="page3.html" class="image-link"><img src="./img/logo3.png" alt="" class="logo" /></a>
+            <a href="page4.html" class="image-link"><img src="./img/logo4.png" alt="" class="logo" /></a>
+          </div>
+        <!-- desktop menu -->
+        <div class="main-menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="#">主页</a></li>
+            <li class="menu-item"><a href="#about">介绍</a></li>
+            <li class="menu-item"><a href="#services">历史</a></li>
+            <li class="menu-item"><a href="#tours">美食</a></li>
+            <li class="menu-item"><a href="#technology">景点</a></li>
+          </ul>
+        </div>
+        <div class="icon-menu">
+          <ul class="icon-list">
+            <li class="icon-item">
+              <a href="http://facebook.com"
+                ><i class="fa-brands fa-facebook"> </i
+              ></a>
+            </li>
+            <li class="icon-item">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="icon-item">
+              <a href="#"><i class="fa-brands fa-threads"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- mobile menu -->
+        <div class="mobile-menu">
+          <div class="mobile-menu-toggle">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="#">主页</a></li>
+              <li><a href="#about">介绍</a></li>
+              <li><a href="#services">历史</a></li>
+              <li><a href="#tours">美食</a></li>
+              <li><a href="#technology">景点</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="container">
+        <h1>中国<span class="text-secondary">上海</span></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <a href="#" class="btn">explore tours</a>
+      </div>
+    </div>
+    <!-- 关于 -->
+    <section class="about" id="about">
+      <h2>介绍</h2>
+      <div class="about-content">
+        <div class="video-container">
+          <iframe width="800" height="500" 
+            src="https://www.youtube.com/embed/视频ID" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="about-img">
+          <img src="./img/Tours-11.png" alt="about" />
+        </div>
+          
+      </div>
+    </section>
+    <!-- 景点 -->
+    <main class="services" id="services">
+      <h2>历史</h2>
+      <div class="services-content">
+        <div class="service-title">
+          <i class="fa-solid  fa-search"></i>
+          <p>
+            上海的文明火种可追溯至六千多年前的新石器时代，先民们在这片濒海平原上渔猎耕作，留下了崧泽、良渚等文化遗址。战国时期属楚地春申君封邑，“申” 之名由此而来；唐代设华亭县，依托长江口区位成为渔盐要地；宋代因海运兴起渐成聚落，元代升为松江府，棉纺织业空前繁荣，黄道婆改良纺织技术后，更赢得 “衣被天下” 的美誉，奠定了早期经济基础。
+        </div>
+        <div class="service-title">
+          <i class="fa-solid fa-cog"></i>
+          <p>
+            1843 年开埠后，上海进入近代转型期。英、法、美等国设立租界，西方资本、技术与文化在此碰撞交融。短短数十年间，这里从传统县城蜕变为远东金融贸易中心，外滩建起万国建筑群，南京路成商业繁华象征，至 20 世纪二三十年代，已成为集工业、金融、文化于一体的国际都市，既是 “东方巴黎”，也是中国近代工业摇篮和新文化运动的重要策源地。
+          </p>
+        </div>
+        <div class="service-title">
+          <i class="fa-solid fa-info-circle"></i>
+          <p>
+            新中国成立后，上海作为工业重镇支撑国家建设，形成门类齐全的工业体系。1990 年浦东开发开放开启新纪元，陆家嘴从农田崛起为国际金融城，张江科技城引领创新浪潮。如今的上海，既保留着石库门里弄的市井烟火、外滩建筑的历史沉淀，又以东方明珠、上海中心等现代地标彰显活力，在传承中不断革新，成为连接中国与世界的国际化大都市。
+          </p>
+        </div>
+      </div>
+    </main>
+    <!-- tours -->
+    <article class="tours" id="tours">
+      <h2>美食</h2>
+      <div class="cards">
+        <!-- card X 4 -->
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-12.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>南翔小笼</h3>
+            <p>皮薄不破、褶皱美观，包裹鲜嫩肉馅与清甜汤汁，鲜香甜交融口感清爽</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>China</li>
+              <li>6 Days</li>
+              <li>From $2100</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-13.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>上海生煎包</h3>
+            <p>底部金黄酥脆、顶部撒芝麻葱花，软韧外皮裹着鲜肉汤汁，酥脆软嫩</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>China</li>
+              <li>6 Days</li>
+              <li>From $2100</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-14.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>排骨年糕</h3>
+            <p>外酥里嫩的炸大排搭配吸满甜面酱的软糯年糕，甜咸适中不粘牙</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>China</li>
+              <li>6 Days</li>
+              <li>From $2100</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-15.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>本帮红烧肉</h3>
+            <p>色泽红亮、酥烂脱骨，酱甜带鲜不腻，裹满酱汁配饭堪称一绝</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>China</li>
+              <li>6 Days</li>
+              <li>From $2100</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="technology" id="technology">
+    <h2>景点</h2>
+    <div class="flip-container">
+
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-16.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">人工智能</h3>
+                    <p class="tech-desc">上海打造了全球首个人工智能岛，聚集了200多家人工智能企业。商汤科技、依图科技等AI独角兽企业在计算机视觉、自然语言处理等领域取得突破。</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-17.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">集成电路</h3>
+                    <p class="tech-desc">上海集成电路产业规模占全国1/4，中芯国际14纳米工艺实现量产，7纳米工艺研发取得突破。华虹集团建成中国大陆第一条12英寸功率器件代工生产线。</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-18.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">生物医药</h3>
+                    <p class="tech-desc">张江药谷聚集了400多家生物医药企业，君实生物研发的国产PD-1单抗药物获批上市。复宏汉霖研发的国产生物类似药打破国外垄断。</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-19.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">量子科技</h3>
+                    <p class="tech-desc">上海交通大学潘建伟团队实现千公里级量子纠缠分发。中国科学院上海微系统所研制出62比特可编程超导量子计算原型机。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+
+
+    </article>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#">主页</a></li>
+          <li class="menu-item"><a href="#about">介绍</a></li>
+          <li class="menu-item"><a href="#services">历史</a></li>
+          <li class="menu-item"><a href="#tours">美食</a></li>
+          <li class="menu-item"><a href="#technology">景点</a></li>
+        </ul>
+      </div>
+      <div class="footer-icon-menu">
+        <ul class="icon-list">
+          <li class="icon-item">
+            <a href="http://facebook.com"
+              ><i class="fa-brands fa-facebook"> </i
+            ></a>
+          </li>
+          <li class="icon-item">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="icon-item">
+            <a href="#"><i class="fa-brands fa-threads"></i></a>
+          </li>
+        </ul>
+      </div>
+      <p>Copyright &copy; <span id="date"></span> All Rights Reserved</p>
+    </footer>
+    <script src="./tour.js"></script>
+  </body>
+</html>
