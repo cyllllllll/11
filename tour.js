@@ -12,14 +12,17 @@ document.addEventListener("DOMContentLoaded", () => {
 
  const toggleButton = document.querySelector(".mobile-menu-toggle");
  const mobileMenu = document.querySelector(".mobile-menu-items");
+
   if (toggleButton && mobileMenu) {
     toggleButton.addEventListener("click", () => {
+      
       mobileMenu.classList.toggle("active");
       console.log("button triggered");
     });
   }
   })
 
+  
 
 
 
@@ -56,4 +59,5 @@ document.addEventListener('DOMContentLoaded', function() {
     // 启动动画
     animate();
 });
+
 
