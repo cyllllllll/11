@@ -1,12 +1,25 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const toggleButton = document.querySelector(".navbar .mobile-menu-toggle");
-  const mobileMenu = document.querySelector(".navbar .mobile-menu-items");
+  // 1. 主题切换代码
+  const htmlElement = document.documentElement;
+  let isWarm = false;
+  setInterval(() => {
+    isWarm = !isWarm;
+    htmlElement.classList.toggle("warm-theme", isWarm);
+    localStorage.setItem("theme", isWarm ? "warm" : "cool");
+  }, 10000);
 
-  toggleButton.addEventListener("click", () => {
-    mobileMenu.classList.toggle("active");
-    console.log("button tiggered");
-  });
-});
+  // 2. 移动菜单切换代码
+
+ const toggleButton = document.querySelector(".mobile-menu-toggle");
+ const mobileMenu = document.querySelector(".mobile-menu-items");
+  if (toggleButton && mobileMenu) {
+    toggleButton.addEventListener("click", () => {
+      mobileMenu.classList.toggle("active");
+      console.log("button triggered");
+    });
+  }
+  })
+
 
 
 
@@ -44,19 +57,3 @@ document.addEventListener('DOMContentLoaded', function() {
     animate();
 });
 
-
-document.addEventListener('DOMContentLoaded', function() {
-  const htmlElement = document.documentElement;
-  let isWarm = false;
-
-  setInterval(() => {
-    isWarm = !isWarm; // 切换状态
-    htmlElement.classList.toggle('warm-theme', isWarm);
-    
-    // 可选：在控制台输出当前主题（调试用）
-    console.log(`当前主题: ${isWarm ? '暖色' : '冷色'}`);
-    
-    // 保存状态（如需持久化）
-    localStorage.setItem('theme', isWarm ? 'warm' : 'cool');
-  }, 10000); // 20秒 = 20000毫秒
-});
