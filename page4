@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./tour.css" />
+    <title>CYL2022</title>
+  </head>
+  <body>
+    <img src="./img/logo4.png" class="follow-img" id="follower">
+  <div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">❄</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">✻</div>
+  <div class="snowflake">✼</div>
+  <div class="snowflake">❄︎</div>
+  <!-- 复制更多雪花div增加密度 -->
+</div>
+    <!-- navbar -->
+ 
+    <nav class="navbar">
+      <div class="container navbar-flex">
+          <div class="logo-btn">
+            <a href="page1.html" class="image-link"><img src="./img/logo1.png" alt="" class="logo" /></a>
+            <a href="page2.html" class="image-link"><img src="./img/logo2.png" alt="" class="logo" /></a>
+            <a href="page3.html" class="image-link"><img src="./img/logo3.png" alt="" class="logo" /></a>
+          </div>
+        <!-- desktop menu -->
+        <div class="main-menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="#">主页</a></li>
+            <li class="menu-item"><a href="#about">介绍</a></li>
+            <li class="menu-item"><a href="#services">历史</a></li>
+            <li class="menu-item"><a href="#tours">美食</a></li>
+            <li class="menu-item"><a href="#technology">景点</a></li>
+          </ul>
+        </div>
+        <div class="icon-menu">
+          <ul class="icon-list">
+            <li class="icon-item">
+              <a href="http://facebook.com"
+                ><i class="fa-brands fa-facebook"> </i
+              ></a>
+            </li>
+            <li class="icon-item">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="icon-item">
+              <a href="#"><i class="fa-brands fa-threads"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- mobile menu -->
+        <div class="mobile-menu">
+          <div class="mobile-menu-toggle">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="#">主页</a></li>
+              <li><a href="#about">介绍</a></li>
+              <li><a href="#services">历史</a></li>
+              <li><a href="#tours">美食</a></li>
+              <li><a href="#technology">景点</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="container">
+        <h1>英国<span class="text-secondary">伦敦</span></h1>
+        <p>大本钟的钟声里，沉淀着王室威仪、工业遗产与多元文化的欧洲老牌全球枢纽</p>
+        <a href="#" class="btn">探索之旅</a>
+      </div>
+    </div>
+    <!-- 关于 -->
+    <section class="about" id="about">
+      <h2>介绍</h2>
+      <div class="about-content">
+        <div class="video-container">
+          <iframe width="800" height="450" 
+            src="https://www.youtube.com/embed/kLR6wXhe_Rg" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="about-img">
+          <img src="./img/Tours-41.png" alt="about" />
+        </div>
+          
+      </div>
+    </section>
+    <!-- 景点 -->
+    <main class="services" id="services">
+      <h2>历史</h2>
+      <div class="services-content">
+        <div class="service-title">
+          <i class="fa-solid  fa-search"></i>
+          <p>
+            伦敦的文明火种可追溯至两千多年前的铁器时代，泰晤士河沿岸的凯尔特人部落在此定居，留下了早期聚落与贸易痕迹。公元 43 年罗马征服不列颠后，在此建立 “Londinium” 殖民地，依托河流航运发展为军事与商业重镇，罗马城墙、 amphitheatre（圆形剧场）等遗迹奠定了城市早期格局；中世纪时成为英格兰王国首都，伦敦塔、威斯敏斯特教堂等建筑相继落成，泰晤士河上的码头与市集让这里渐成欧洲重要贸易中心；文艺复兴至工业革命前，金融与商贸持续繁荣，伦敦证券交易所的前身在此诞生，文学巨匠莎士比亚的戏剧更让这座城市成为文化地标。
+          </p>
+          </div>
+        <div class="service-title">
+          <i class="fa-solid fa-cog"></i>
+          <p>
+            18 世纪工业革命爆发后，伦敦进入近代转型期。蒸汽机的轰鸣推动工厂集群兴起，运河与铁路网络快速扩展，城市人口急剧增长。19 世纪成为 “日不落帝国” 的心脏，大英博物馆收藏全球文明瑰宝，白金汉宫成为王权象征，泰晤士河沿岸的码头连接起世界贸易，至 20 世纪初，已成为集金融、工业、殖民管理于一体的全球都市，既是 “世界工厂” 的核心，也是国际政治与文化交流的枢纽。
+          </p>
+        </div>
+        <div class="service-title">
+          <i class="fa-solid fa-info-circle"></i>
+          <p>
+            二战后，伦敦在战后重建中重塑城市风貌。20 世纪下半叶，制造业逐渐转型，金融服务业与创意产业崛起，伦敦金融城成为全球最重要的金融中心之一。21 世纪以来，碎片大厦等现代建筑与古典建筑群交相辉映，多元文化在此交融，西区的戏剧、考文特花园的艺术氛围延续着文化活力。如今的伦敦，既保留着圣保罗大教堂的庄严、切尔西的古典街巷，又以金丝雀码头的摩天大楼、科技园区展现现代活力，在历史沉淀与创新浪潮中，始终是连接全球的国际化大都市与文化熔炉。
+          </p>
+        </div>
+      </div>
+    </main>
+    <!-- tours -->
+    <article class="tours" id="tours">
+      <h2>美食</h2>
+      <div class="cards">
+        <!-- card X 4 -->
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-42.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>炸鱼薯条</h3>
+            <p>鳕鱼外酥里嫩，薯条粗脆咸香，搭配青豆泥和塔塔酱，经典英式风味</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>伦敦</li>
+              <li>12 英镑 / 份</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-43.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>英式早餐</h3>
+            <p>培根香肠煎蛋俱全，烤番茄蘑菇入味，烤豆酸甜，开启能量一天</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>伦敦</li>
+              <li>15 英镑 / 份</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-44.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>牧羊人派</h3>
+            <p>土豆泥绵软细腻，肉末蔬菜馅料浓郁，咸香可口饱腹感强</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>伦敦</li>
+              <li>10 英镑 / 份</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-45.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>司康饼</h3>
+            <p>外皮微酥内里松软，搭配草莓酱与凝脂奶油，配红茶享用绝佳</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>伦敦</li>
+              <li>6 英镑 / 份</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="technology" id="technology">
+    <h2>景点</h2>
+    <div class="flip-container">
+
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-46.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">大本钟</h3>
+                    <p class="tech-desc">
+    正式名称为 “伊丽莎白塔”，建于 1858 年，是英国议会大厦的标志性钟楼。
+    钟楼高 96 米，重达 13.5 吨的巨大铜钟每 15 分钟敲响一次，声音浑厚悠扬。
+    哥特式建筑风格的尖顶与繁复雕刻，搭配洁白的石材，尽显维多利亚时代的庄重典雅。
+    即使在二战期间历经轰炸，钟体仍未停止运转，成为伦敦坚韧精神的象征。
+</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-47.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">伦敦眼</h3>
+                    <p class="tech-desc">
+    高 135 米的巨型摩天轮，于 2000 年为纪念千禧年建成，曾是世界最大观景摩天轮。
+    32 个全封闭座舱可容纳约 800 人同时乘坐，旋转一周需 30 分钟，提供 360 度城市全景。
+    白天可远眺圣保罗大教堂、碎片大厦，夜晚灯光璀璨如巨型蓝色项链，倒映在泰晤士河上。
+    每年接待超 370 万游客，是伦敦最受欢迎的付费景点之一，被誉为 “伦敦的眼睛”。
+</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-48.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">白金汉宫</h3>
+                    <p class="tech-desc">
+    英国王室的官方府邸，始建于 1703 年，由乔治三世购得后扩建为王室宫殿。
+    正面长 108 米的新古典主义建筑，缀有镀金装饰的阳台是王室成员亮相的经典位置。
+    每日 11:00 的皇家卫兵换岗仪式（4-9 月每日举行，其余时间隔日举行），以整齐的步伐和鲜艳的红色制服吸引全球目光。
+    宫内拥有 775 间房间，包括 19 间国事厅、52 间王室卧室，部分区域在夏季对公众开放。
+</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-49.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">伦敦塔桥</h3>
+                    <p class="tech-desc">
+    横跨泰晤士河的哥特复兴式桥梁，1894 年通车，因毗邻伦敦塔而得名，常被误称为 “伦敦桥”。
+    双层设计上层为行人步道（玻璃地板观景台），下层可开启的桥面每年约升起 800 次，让大型船只通行。
+    两座高 65 米的塔楼通过空中走廊连接，内部设有博物馆，展示桥梁的历史与机械运作原理。
+    夜间塔身灯光采用蓝色 LED 照明，在泰晤士河夜景中尤为醒目，是伦敦天际线的重要组成部分。
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+
+
+    </article>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#">主页</a></li>
+          <li class="menu-item"><a href="#about">介绍</a></li>
+          <li class="menu-item"><a href="#services">历史</a></li>
+          <li class="menu-item"><a href="#tours">美食</a></li>
+          <li class="menu-item"><a href="#technology">景点</a></li>
+        </ul>
+      </div>
+      <div class="footer-icon-menu">
+        <ul class="icon-list">
+          <li class="icon-item">
+            <a href="http://facebook.com"
+              ><i class="fa-brands fa-facebook"> </i
+            ></a>
+          </li>
+          <li class="icon-item">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="icon-item">
+            <a href="#"><i class="fa-brands fa-threads"></i></a>
+          </li>
+        </ul>
+      </div>
+      <p>Copyright &copy; <span id="date"></span> All Rights Reserved</p>
+    </footer>
+    <script src="./tour.js"></script>
+  </body>
+</html>
