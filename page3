@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./tour.css" />
+    <title>CYL2022</title>
+  </head>
+  <body>
+    <img src="./img/logo3.png" class="follow-img" id="follower">
+    <div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">❄</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">✻</div>
+  <div class="snowflake">✼</div>
+  <div class="snowflake">❄︎</div>
+  <!-- 复制更多雪花div增加密度 -->
+</div>
+    <!-- navbar -->
+ 
+    <nav class="navbar">
+      <div class="container navbar-flex">
+          <div class="logo-btn">
+            <a href="page1.html" class="image-link"><img src="./img/logo1.png" alt="" class="logo" /></a>
+            <a href="page2.html" class="image-link"><img src="./img/logo2.png" alt="" class="logo" /></a>
+            <a href="page4.html" class="image-link"><img src="./img/logo4.png" alt="" class="logo" /></a>
+          </div>
+        <!-- desktop menu -->
+        <div class="main-menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="#">主页</a></li>
+            <li class="menu-item"><a href="#about">介绍</a></li>
+            <li class="menu-item"><a href="#services">历史</a></li>
+            <li class="menu-item"><a href="#tours">美食</a></li>
+            <li class="menu-item"><a href="#technology">景点</a></li>
+          </ul>
+        </div>
+        <div class="icon-menu">
+          <ul class="icon-list">
+            <li class="icon-item">
+              <a href="http://facebook.com"
+                ><i class="fa-brands fa-facebook"> </i
+              ></a>
+            </li>
+            <li class="icon-item">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="icon-item">
+              <a href="#"><i class="fa-brands fa-threads"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- mobile menu -->
+        <div class="mobile-menu">
+          <div class="mobile-menu-toggle">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="#">主页</a></li>
+              <li><a href="#about">介绍</a></li>
+              <li><a href="#services">历史</a></li>
+              <li><a href="#tours">美食</a></li>
+              <li><a href="#technology">景点</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="container">
+        <h1>日本<span class="text-secondary">东京</span></h1>
+        <p>在新宿的霓虹与浅草的古寺间，科技浪潮与传统底蕴碰撞出的亚洲超现代都会</p>
+        <a href="#" class="btn">探索之旅</a>
+      </div>
+    </div>
+    <!-- 关于 -->
+    <section class="about" id="about">
+      <h2>介绍</h2>
+      <div class="about-content">
+        <div class="video-container">
+          <iframe width="800" height="500" 
+            src="https://www.youtube.com/embed/xW2mUoTjEMw" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="about-img">
+          <img src="./img/Tours-31.png" alt="about" />
+        </div>
+          
+      </div>
+    </section>
+    <!-- 景点 -->
+    <main class="services" id="services">
+      <h2>历史</h2>
+      <div class="services-content">
+        <div class="service-title">
+          <i class="fa-solid  fa-search"></i>
+          <p>
+            东京的文明根脉可追溯至两千多年前的弥生时代，隅田川与江户川流域的先民在此种植水稻、制作陶器，留下了早期农耕聚落的痕迹。12 世纪末镰仓时代，江户（东京旧称）作为武家据点兴起，依托水路交通成为关东地区军事要地；江户时代（1603-1868 年）德川幕府在此定都，城郭与町屋街巷逐渐成型，浮世绘、歌舞伎等市民文化繁荣，至 18 世纪已发展为人口超百万的 “天下第一町”，奠定了关东地区政治与经济中心的地位。
+          </p>
+          </div>
+        <div class="service-title">
+          <i class="fa-solid fa-cog"></i>
+          <p>
+            1868 年明治维新后，江户改称 “东京” 并成为日本首都，进入近代转型期。政府推行全面西化政策，西式建筑、铁路与近代工业在此落地，银座等商业区兴起，电灯、电车等现代设施快速普及。19 世纪末至 20 世纪初，城市规模急剧扩张，上野公园、东京站等标志性建筑建成，至二战前已成为集行政、工业、文化于一体的东亚大都市，既是日本现代化的核心引擎，也是东西方文化交融的窗口。
+          </p>
+        </div>
+        <div class="service-title">
+          <i class="fa-solid fa-info-circle"></i>
+          <p>
+            二战后，东京在战后重建中开启新的发展篇章。1964 年东京奥运会推动城市基础设施跨越式升级，新干线、地铁网络连接起都市圈。20 世纪七八十年代经济腾飞期，丸之内、新宿崛起为国际商务区，涩谷、原宿成为时尚与青年文化的地标。如今的东京，既保留着浅草寺的传统市井、江户时代的老町屋风情，又以东京晴空塔、六本木新城等现代建筑彰显国际都市活力，在传统与创新的交织中，成为全球瞩目的经济、文化与科技中心。
+          </p>
+        </div>
+      </div>
+    </main>
+    <!-- tours -->
+    <article class="tours" id="tours">
+      <h2>美食</h2>
+      <div class="cards">
+        <!-- card X 4 -->
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-32.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>寿司拼盘</h3>
+            <p>多种新鲜鱼片铺在颗粒分明的醋饭上，搭配芥末与姜片，口感丰富层次分明</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>东京</li>
+              <li>2500 日元 / 份</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-33.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>拉面</h3>
+            <p>劲道面条浸在乳白豚骨汤中，叉烧软嫩溏心蛋流心，海苔葱花增添香气</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>东京</li>
+              <li>1600 日元 / 份</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-34.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>天妇罗</h3>
+            <p>外皮金黄酥脆不油腻，内里食材鲜嫩多汁，蘸天汁食用更显清甜</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>东京</li>
+              <li>2000 日元 / 份</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-35.png" alt="" />
+            <p>推荐指数：⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>章鱼小丸子</h3>
+            <p>外焦里嫩，章鱼块 Q 弹，海苔木鱼花随热气舞动，沙拉酱酸甜可口</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>东京</li>
+              <li>1100 日元 / 份</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="technology" id="technology">
+    <h2>景点</h2>
+    <div class="flip-container">
+
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-36.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">东京塔</h3>
+                    <p class="tech-desc">
+    建于 1958 年的通信与观光塔，高 333 米，以巴黎埃菲尔铁塔为原型设计，是东京的经典地标。
+    塔身被漆成橙白相间的配色，夜晚灯光会随季节变换，夏季为白色，冬季则变为温暖的橙色。
+    设有两个观景台，在 150 米高的主观景台可俯瞰东京市中心全景，晴朗时能远眺富士山。
+    塔下的东京铁塔公园是休闲散步的好去处，塔内还设有蜡像馆和各种纪念品商店。
+</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-37.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">浅草寺</h3>
+                    <p class="tech-desc">
+    东京最古老的寺庙，始建于 628 年，供奉着观音菩萨，是日本佛教徒的重要朝圣地。
+    入口处的雷门高达 11 米，悬挂着巨大的红灯笼，上面写有 “雷门” 二字，是浅草寺的标志性景观。
+    穿过雷门后的仲见世商店街长约 300 米，两旁林立着出售和服、煎饼、人形等传统工艺品和小吃的店铺。
+    寺庙内的五重塔高 53 米，是日本最高的木造塔之一，塔身雕刻精美，彰显着古代建筑技艺。
+</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-38.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">涩谷十字路口</h3>
+                    <p class="tech-desc">
+    被誉为 “世界上最繁忙的十字路口”，每次绿灯亮起时，来自四个方向的行人多达数千人同时穿行。
+    周围环绕着众多商场、写字楼和娱乐设施，标志性的忠犬八公雕像就在路口附近的车站前。
+    高楼大厦上的巨型电子屏幕日夜闪烁，展示着广告和动画，营造出浓郁的都市氛围。
+    从附近的星巴克或观景台俯瞰十字路口的人潮涌动，成为体验东京快节奏生活的必打卡项目。
+</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-39.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">明治神宫</h3>
+                    <p class="tech-desc">
+    位于东京市中心的大型神社，建于 1920 年，供奉着明治天皇和昭宪皇太后，是日本最重要的神社之一。
+    神社被茂密的森林环绕，占地约 70 公顷，种植着来自日本各地的数万棵树木，宛如城市中的天然氧吧。
+    入口处的大鸟居由千年桧木制成，高 12 米，是日本最大的木制鸟居，庄严肃穆。
+    每年都会举办众多传统仪式和活动，如新年参拜、成人礼等，吸引着大量信徒和游客前来祈福。
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+
+
+    </article>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#">主页</a></li>
+          <li class="menu-item"><a href="#about">介绍</a></li>
+          <li class="menu-item"><a href="#services">历史</a></li>
+          <li class="menu-item"><a href="#tours">美食</a></li>
+          <li class="menu-item"><a href="#technology">景点</a></li>
+        </ul>
+      </div>
+      <div class="footer-icon-menu">
+        <ul class="icon-list">
+          <li class="icon-item">
+            <a href="http://facebook.com"
+              ><i class="fa-brands fa-facebook"> </i
+            ></a>
+          </li>
+          <li class="icon-item">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="icon-item">
+            <a href="#"><i class="fa-brands fa-threads"></i></a>
+          </li>
+        </ul>
+      </div>
+      <p>Copyright &copy; <span id="date"></span> All Rights Reserved</p>
+    </footer>
+    <script src="./tour.js"></script>
+  </body>
+</html>
