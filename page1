@@ -79,8 +79,8 @@
     <div class="hero">
       <div class="container">
         <h1>中国<span class="text-secondary">上海</span></h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        <a href="#" class="btn">explore tours</a>
+        <p>以陆家嘴天际线勾勒摩登轮廓，用弄堂烟火延续海派温情的国际金融与文化魔都</p>
+        <a href="#" class="btn">探索之旅</a>
       </div>
     </div>
     <!-- 关于 -->
@@ -89,7 +89,7 @@
       <div class="about-content">
         <div class="video-container">
           <iframe width="800" height="500" 
-            src="https://www.youtube.com/embed/视频ID" 
+            src="https://www.youtube.com/embed/u8vt-BL0x4" 
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
@@ -109,6 +109,7 @@
           <i class="fa-solid  fa-search"></i>
           <p>
             上海的文明火种可追溯至六千多年前的新石器时代，先民们在这片濒海平原上渔猎耕作，留下了崧泽、良渚等文化遗址。战国时期属楚地春申君封邑，“申” 之名由此而来；唐代设华亭县，依托长江口区位成为渔盐要地；宋代因海运兴起渐成聚落，元代升为松江府，棉纺织业空前繁荣，黄道婆改良纺织技术后，更赢得 “衣被天下” 的美誉，奠定了早期经济基础。
+          </p>
         </div>
         <div class="service-title">
           <i class="fa-solid fa-cog"></i>
@@ -138,9 +139,9 @@
             <h3>南翔小笼</h3>
             <p>皮薄不破、褶皱美观，包裹鲜嫩肉馅与清甜汤汁，鲜香甜交融口感清爽</p>
             <ul>
-              <li><i class="fa-solid fa-map"></i>China</li>
-              <li>6 Days</li>
-              <li>From $2100</li>
+              <li><i class="fa-solid fa-map"></i>上海</li>
+
+              <li>28 元 / 笼</li>
             </ul>
           </div>
         </div>
@@ -153,9 +154,8 @@
             <h3>上海生煎包</h3>
             <p>底部金黄酥脆、顶部撒芝麻葱花，软韧外皮裹着鲜肉汤汁，酥脆软嫩</p>
             <ul>
-              <li><i class="fa-solid fa-map"></i>China</li>
-              <li>6 Days</li>
-              <li>From $2100</li>
+              <li><i class="fa-solid fa-map"></i>上海</li>
+              <li>16 元 / 份</li>
             </ul>
           </div>
         </div>
@@ -168,9 +168,8 @@
             <h3>排骨年糕</h3>
             <p>外酥里嫩的炸大排搭配吸满甜面酱的软糯年糕，甜咸适中不粘牙</p>
             <ul>
-              <li><i class="fa-solid fa-map"></i>China</li>
-              <li>6 Days</li>
-              <li>From $2100</li>
+              <li><i class="fa-solid fa-map"></i>上海</li>
+              <li>22 元 / 份</li>
             </ul>
           </div>
         </div>
@@ -183,9 +182,8 @@
             <h3>本帮红烧肉</h3>
             <p>色泽红亮、酥烂脱骨，酱甜带鲜不腻，裹满酱汁配饭堪称一绝</p>
             <ul>
-              <li><i class="fa-solid fa-map"></i>China</li>
-              <li>6 Days</li>
-              <li>From $2100</li>
+              <li><i class="fa-solid fa-map"></i>上海</li>
+              <li>58 元 / 份</li>
             </ul>
           </div>
         </div>
@@ -202,8 +200,12 @@
                     <img src="./img/Tours-16.png" alt="">
                 </div>
                 <div class="flip-card-back">
-                    <h3 class="tech-title">人工智能</h3>
-                    <p class="tech-desc">上海打造了全球首个人工智能岛，聚集了200多家人工智能企业。商汤科技、依图科技等AI独角兽企业在计算机视觉、自然语言处理等领域取得突破。</p>
+                    <h3 class="tech-title">东方明珠广播电视塔</h3>
+                    <p class="tech-desc">
+    建于 1994 年，高 468 米，是上海的标志性文化景观之一，由 11 个大小不一的球体串联而成，寓意 “大珠小珠落玉盘”。
+    拥有上球体全透明悬空观光廊、下球体室外观光平台和太空舱等多个观景层次，可 360 度俯瞰浦江两岸风光。
+    塔内设有上海城市历史发展陈列馆，通过珍贵文物、蜡像、微缩景观等展现上海百年沧桑变迁。
+    夜晚灯光璀璨，球体在夜色中变幻出七彩光芒，与周围的摩天大楼共同构成绚丽的浦东天际线。</p>
                 </div>
             </div>
         </div>
@@ -214,8 +216,13 @@
                     <img src="./img/Tours-17.png" alt="">
                 </div>
                 <div class="flip-card-back">
-                    <h3 class="tech-title">集成电路</h3>
-                    <p class="tech-desc">上海集成电路产业规模占全国1/4，中芯国际14纳米工艺实现量产，7纳米工艺研发取得突破。华虹集团建成中国大陆第一条12英寸功率器件代工生产线。</p>
+                    <h3 class="tech-title">外滩</h3>
+                    <p class="tech-desc">
+    位于黄浦江畔，全长约 1.5 公里，是上海近代城市开始的起点，素有 “万国建筑博览群” 之称。
+    52 幢风格各异的古典复兴大楼汇集了哥特式、罗马式、巴洛克式、中西合璧式等多种建筑风格，被誉为 “凝固的音乐”。
+    江对岸是陆家嘴金融贸易区，东方明珠、上海中心大厦、环球金融中心等摩天大楼林立，形成新旧对比的独特景观。
+    夜晚，两岸灯光交相辉映，外滩的建筑被灯光勾勒出典雅的轮廓，是上海夜景的精华所在。
+</p>
                 </div>
             </div>
         </div>
@@ -226,8 +233,13 @@
                     <img src="./img/Tours-18.png" alt="">
                 </div>
                 <div class="flip-card-back">
-                    <h3 class="tech-title">生物医药</h3>
-                    <p class="tech-desc">张江药谷聚集了400多家生物医药企业，君实生物研发的国产PD-1单抗药物获批上市。复宏汉霖研发的国产生物类似药打破国外垄断。</p>
+                    <h3 class="tech-title">上海迪士尼乐园奇幻童话城堡</h3>
+                    <p class="tech-desc">
+    全球迪士尼乐园中最高、最大的童话城堡，融合了迪士尼经典故事元素与中国传统建筑风格，塔尖装饰有中国龙图案。
+    城堡内部设有 “漫游童话时光” attraction，游客可沉浸式体验白雪公主的故事，还设有皇室宴会厅和迪士尼公主们的会客厅。
+    城堡前的奇想花园是乐园的中心区域，经常举办盛大的花车巡游和夜间烟花表演，是游客拍照打卡的热门地点。
+    城堡的金色尖顶在阳光照耀下熠熠生辉，夜晚则被梦幻的灯光点亮，宛如童话世界中的真实城堡。
+</p>
                 </div>
             </div>
         </div>
@@ -238,8 +250,13 @@
                     <img src="./img/Tours-19.png" alt="">
                 </div>
                 <div class="flip-card-back">
-                    <h3 class="tech-title">量子科技</h3>
-                    <p class="tech-desc">上海交通大学潘建伟团队实现千公里级量子纠缠分发。中国科学院上海微系统所研制出62比特可编程超导量子计算原型机。</p>
+                    <h3 class="tech-title">豫园</h3>
+                    <p class="tech-desc">
+    始建于明朝嘉靖年间（1559 年），由潘允端为其父亲修建，是江南古典园林的杰出代表，具有 “虽由人作，宛自天开” 的艺术境界。
+    园内假山峰峦叠翠，曲水回廊环绕，亭台楼阁错落有致，著名景点有玉玲珑、三穿六戗十八盘的大假山、九曲桥和湖心亭等。
+    湖心亭旁的九曲桥是豫园的标志性景观之一，桥面曲折，形似九曲长龙，桥下池水清澈，倒映着周围的建筑和花木。
+    园内还保存有许多明清时期的匾额、碑刻和古树名木，具有极高的历史文化价值，是上海市区内感受传统江南园林韵味的绝佳去处。
+</p>
                 </div>
             </div>
         </div>
