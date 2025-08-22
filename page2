@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./tour.css" />
+    <title>CYL2022</title>
+  </head>
+  <body>
+    <img src="./img/logo2.png" class="follow-img" id="follower">
+    <div class="snowflakes" aria-hidden="true">
+  <div class="snowflake">❄</div>
+  <div class="snowflake">❅</div>
+  <div class="snowflake">❆</div>
+  <div class="snowflake">✻</div>
+  <div class="snowflake">✼</div>
+  <div class="snowflake">❄︎</div>
+  <!-- 复制更多雪花div增加密度 -->
+</div>
+    <!-- navbar -->
+ 
+    <nav class="navbar">
+      <div class="container navbar-flex">
+          <div class="logo-btn">
+            <a href="page1.html" class="image-link"><img src="./img/logo1.png" alt="" class="logo" /></a>
+            <a href="page3.html" class="image-link"><img src="./img/logo3.png" alt="" class="logo" /></a>
+            <a href="page4.html" class="image-link"><img src="./img/logo4.png" alt="" class="logo" /></a>
+          </div>
+        <!-- desktop menu -->
+        <div class="main-menu">
+          <ul class="menu-list">
+            <li class="menu-item"><a href="#">主页</a></li>
+            <li class="menu-item"><a href="#about">介绍</a></li>
+            <li class="menu-item"><a href="#services">历史</a></li>
+            <li class="menu-item"><a href="#tours">美食</a></li>
+            <li class="menu-item"><a href="#technology">景点</a></li>
+          </ul>
+        </div>
+        <div class="icon-menu">
+          <ul class="icon-list">
+            <li class="icon-item">
+              <a href="http://facebook.com"
+                ><i class="fa-brands fa-facebook"> </i
+              ></a>
+            </li>
+            <li class="icon-item">
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li class="icon-item">
+              <a href="#"><i class="fa-brands fa-threads"></i></a>
+            </li>
+          </ul>
+        </div>
+        <!-- mobile menu -->
+        <div class="mobile-menu">
+          <div class="mobile-menu-toggle">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+          <div class="mobile-menu-items">
+            <ul class="mobile-menu-list">
+              <li><a href="#">主页</a></li>
+              <li><a href="#about">介绍</a></li>
+              <li><a href="#services">历史</a></li>
+              <li><a href="#tours">美食</a></li>
+              <li><a href="#technology">景点</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="container">
+        <h1>法国<span class="text-secondary">巴黎</span></h1>
+        <p>埃菲尔铁塔的光影下，艺术、时尚与历史交织成浪漫不朽的世界文化之都</p>
+        <a href="#" class="btn">探索之旅</a>
+      </div>
+    </div>
+    <!-- 关于 -->
+    <section class="about" id="about">
+      <h2>介绍</h2>
+      <div class="about-content">
+        <div class="video-container">
+          <iframe width="800" height="500" 
+            src="https://www.youtube.com/embed/pEMbpGP4rns" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        <div class="about-img">
+          <img src="./img/Tours-21.png" alt="about" />
+        </div>
+          
+      </div>
+    </section>
+    <!-- 景点 -->
+    <main class="services" id="services">
+      <h2>历史</h2>
+      <div class="services-content">
+        <div class="service-title">
+          <i class="fa-solid  fa-search"></i>
+          <p>
+            巴黎的文明根系可追溯至两千多年前的铁器时代，塞纳河沿岸的凯尔特人部落在此建立聚落，留下了拉维莱特等早期聚居遗址。公元前 52 年被罗马军团征服，命名为 “吕岱斯”，成为高卢地区重要的军事和商业据点；中世纪初期属法兰克王国领地，克洛维一世在此定都，“巴黎” 之名逐渐确立；12 世纪随着巴黎大学创立，城市成为欧洲学术中心。
+        </p>
+        </div>
+            <div class="service-title">
+          <i class="fa-solid fa-cog"></i>
+          <p>
+            17 世纪路易十四时期，巴黎进入扩建转型期。凡尔赛宫的修建带动城市规划革新，香榭丽舍大街、协和广场等标志性建筑相继落成。启蒙运动时期，思想与艺术在此蓬勃发展，狄德罗主编的《百科全书》在此诞生，短短百年间，这座城市从封建都城蜕变为欧洲思想解放的前沿阵地，沙龙文化风靡一时，至 18 世纪末，已成为集政治、文化、艺术于一体的欧洲大都市，是 “启蒙思想摇篮”。
+          </p>
+        </div>
+        <div class="service-title">
+          <i class="fa-solid fa-info-circle"></i>
+          <p>
+            工业革命后，巴黎作为法国工业中心加速现代化，奥斯曼规划重塑城市格局。20 世纪两次世界大战后浴火重生，拉德芳斯新区崛起为现代商务区，蒙马特高地保留艺术气息。如今的巴黎，既留存着卢浮宫的艺术瑰宝、凯旋门的历史荣光，又以埃菲尔铁塔、蓬皮杜中心等地标展现多元魅力，成为享誉世界的文化艺术之都和国际化大都市。​
+          </p>
+        </div>
+      </div>
+    </main>
+    <!-- tours -->
+    <article class="tours" id="tours">
+      <h2>美食</h2>
+      <div class="cards">
+        <!-- card X 4 -->
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-22.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>法式长棍面包</h3>
+            <p>表皮金黄酥脆，内部组织柔软有弹性，气孔细密，散发着麦香</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>巴黎</li>
+              <li>4 欧元 / 根</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-23.png" alt="" />
+            <p>推荐指数：⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>马卡龙</h3>
+            <p>外壳酥脆，内馅柔软，口感丰富，色彩缤纷，甜而不腻</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>巴黎</li>
+              <li>2 欧元 / 个</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-24.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>法式洋葱汤</h3>
+            <p>汤汁浓郁醇厚，洋葱的甜味与奶酪的咸香完美融合，表面的奶酪烤至金黄焦脆</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>巴黎</li>
+              <li>8 欧元 / 份</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-img">
+            <img src="./img/Tours-25.png" alt="" />
+            <p>推荐指数：⭐⭐⭐⭐⭐</p>
+          </div>
+          <div class="card-content">
+            <h3>可丽饼</h3>
+            <p>饼皮薄如蝉翼，柔软细腻，搭配新鲜水果和巧克力酱，酸甜可口</p>
+            <ul>
+              <li><i class="fa-solid fa-map"></i>巴黎</li>
+              <li>6 欧元 / 份</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <article class="technology" id="technology">
+    <h2>景点</h2>
+    <div class="flip-container">
+
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-26.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">埃菲尔铁塔</h3>
+                    <p class="tech-desc">
+    由古斯塔夫・埃菲尔设计，1889 年为巴黎世界博览会而建，高 324 米，曾保持 40 年世界最高建筑纪录。
+    钢铁镂空结构共分三层，每层都有观景台，登顶可 360 度俯瞰巴黎市区，黄昏时分铁塔灯光闪烁尤为壮观。
+    最初因 “丑陋” 饱受争议，计划拆除却因无线电通讯需求保留，如今成为法国文化象征和全球游客必打卡地。
+    塔基刻有 72 位法国科学家、工程师和数学家的名字，彰显工业革命时期的科技成就。
+</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-27.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">卢浮宫</h3>
+                    <p class="tech-desc">
+    始建于 12 世纪的王宫，1793 年改为博物馆，现为世界四大博物馆之首，馆藏达 4.8 万件艺术品。
+    标志性玻璃金字塔由贝聿铭设计，与文艺复兴时期的古典建筑形成鲜明对比，成为现代与传统融合的典范。
+    镇馆之宝包括《蒙娜丽莎》《断臂的维纳斯》《胜利女神》，吸引全球年均 960 万游客到访。
+    建筑呈 U 字形，占地 16 万平方米，展厅长达 6 公里，若每件展品看 30 秒需 9 个月才能全部看完。
+</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-28.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">巴黎圣母院</h3>
+                    <p class="tech-desc">
+    始建于 1163 年，历时 182 年建成的哥特式建筑典范，因雨果小说《巴黎圣母院》闻名世界。
+    正面三大玫瑰窗直径达 10 米，由彩色玻璃拼花而成，阳光透过时内部流光溢彩，极具宗教神秘感。
+    2019 年遭遇严重火灾导致尖顶倒塌，目前正进行修复工程，预计 2024 年重新对外开放。
+    飞扶壁、束柱和尖拱等哥特式元素完美结合，其建筑力学成就对后世教堂设计影响深远。
+</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="./img/Tours-29.png" alt="">
+                </div>
+                <div class="flip-card-back">
+                    <h3 class="tech-title">凯旋门</h3>
+                    <p class="tech-desc">
+    拿破仑为纪念奥斯特里茨战役胜利下令建造，1836 年竣工，高 49.5 米，宽 45 米，深 22 米。
+    门壁刻有拿破仑军队重大战役的浮雕，其中《马赛曲》浮雕最为著名，描绘志愿军出征的场景。
+    下方有无名战士墓，纪念一战中牺牲的法国士兵，长明火自 1923 年点燃从未熄灭。
+    位于香榭丽舍大道西端，登上顶部观景台可俯瞰 12 条放射状大道，是法国爱国主义精神的象征。
+</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function flipCard(card) {
+            card.classList.toggle('flipped');
+        }
+    </script>
+
+
+    </article>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-menu">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#">主页</a></li>
+          <li class="menu-item"><a href="#about">介绍</a></li>
+          <li class="menu-item"><a href="#services">历史</a></li>
+          <li class="menu-item"><a href="#tours">美食</a></li>
+          <li class="menu-item"><a href="#technology">景点</a></li>
+        </ul>
+      </div>
+      <div class="footer-icon-menu">
+        <ul class="icon-list">
+          <li class="icon-item">
+            <a href="http://facebook.com"
+              ><i class="fa-brands fa-facebook"> </i
+            ></a>
+          </li>
+          <li class="icon-item">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li class="icon-item">
+            <a href="#"><i class="fa-brands fa-threads"></i></a>
+          </li>
+        </ul>
+      </div>
+      <p>Copyright &copy; <span id="date"></span> All Rights Reserved</p>
+    </footer>
+    <script src="./tour.js"></script>
+  </body>
+</html>
