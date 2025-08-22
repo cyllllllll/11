@@ -182,7 +182,7 @@ span {
   /* background: var(--primary-white); */
   text-align: center;
   transition: var(--transition);
-  transform: translateX(600%);
+  transform: translateX(-100%);
   z-index: 1;
 }
 
@@ -214,7 +214,7 @@ span {
 }
 
 .navbar .mobile-menu-items.active {
-  transform: translateX(300%);
+  transform: translateX(10%);
   z-index: 2;
 }
 
@@ -423,10 +423,14 @@ span {
 /* =============================================== */
 @media (max-width: 1099px) and (min-width: 577px) {
   .services {
-    height: 75vh;
+    height: auto; /* 改为自动高度 */
+    min-height: 75vh; /* 设置最小高度 */
+    padding-bottom: 2rem; /* 添加底部内边距 */
   }
   .services-content {
-    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .service-title {
     display: flex;
@@ -443,7 +447,9 @@ span {
 /* ============================================ */
 @media (max-width: 576px) {
   .services {
-    height: 100vh;
+    height: auto; /* 改为自动高度 */
+    min-height: 75vh; /* 设置最小高度 */
+    padding-bottom: 2rem; /* 添加底部内边距 */
     h2 {
       font-size: 1.5rem;
     }
@@ -644,3 +650,4 @@ line-height: 1.5;
     grid-template-columns: 1fr;
 }
 }
+
