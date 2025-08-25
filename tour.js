@@ -22,11 +22,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
   })
 
-  
-
-
-
-
 document.addEventListener('DOMContentLoaded', function() {
     const follower = document.getElementById('follower');
     let mouseX = 0;
